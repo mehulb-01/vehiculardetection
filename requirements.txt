@@ -1,0 +1,12 @@
+# Core (install torch with CUDA from https://pytorch.org/get-started/locally/ if you have an NVIDIA GPU)
+ultralytics>=8.3.0,<9.0    # YOLO11 support requires >= 8.3
+torch>=2.2
+torchvision>=0.17
+opencv-python>=4.8
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+pillow>=10.0
+# Notebooks and web app
+jupyter>=1.0
+streamlit>=1.35

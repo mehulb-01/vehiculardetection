@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+kaggle.json
+data/raw/*
+data/dataset/*
+outputs/training/*
+outputs/eval_runs/
+runs/
+*.zip
+*.pt
+!models/best.pt
+!*/.gitkeep
+!data/raw/.gitkeep
+!data/dataset/.gitkeep
